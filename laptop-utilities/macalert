@@ -1,0 +1,12 @@
+#!/bin/bash
+
+url="https://"
+interval=15
+
+while true; do
+    curl -s "$url" > webpage_content.txt
+    if ! grep -q "Out of stock" webpage_content.txt; then
+        afplay /path/to/your/notification-sound.mp3
+    fi
+    sleep $interval
+done
