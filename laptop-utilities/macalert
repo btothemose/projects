@@ -1,6 +1,6 @@
 #!/bin/bash
 
-url="https://"
+read -p "Enter the Walmart URL of the product: " url
 interval=15
 
 while true; do
