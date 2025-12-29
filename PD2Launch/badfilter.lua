@@ -1,7 +1,7 @@
 --- Filter Title: badman basic
 --- Filter Type: (Basic)
 --- Filter Description: freestyling this as we go
---- Filter Link: https://github.com/btothemose/projects/upload/master/PD2Launch/badfilter.lua
+--- Filter Link: https://github.com/btothemose/projects/blob/master/PD2Launch/badfilter.lua
 return {
     reload = "{turquoise}Badfilter {gray}(v1 or w/e) {green}",
     language = "enUS",
@@ -67,4 +67,5 @@ return {
             suffix = "{grey}({gold}{stat=(31)}{grey})"
 	},
     }
+
 }
